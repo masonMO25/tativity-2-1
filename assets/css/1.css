@@ -3,9 +3,35 @@ body {
 }
 
 header {
-  background-color: rgb(190, 78, 39);
+  background-color: rgb(190 78 39);
   color: white;
   height: 320px;
   padding: 20px;
   text-align: center;
+}
+
+nav,
+aside,
+footer,
+section {
+  padding: 10px;
+}
+
+nav {
+  background-color: rgb(235 165 133);
+  text-align: center;
+  height: 100px;
+  padding: 10px;
+}
+
+aside {
+  background-color: rgb(149 221 149);
+  padding: 10px;
+}
+
+.sample-img {
+  background-color: rgb(61 209 209);
+  border: 1px solid black;
+  height: 200px;
+  padding: 20px;
 }
