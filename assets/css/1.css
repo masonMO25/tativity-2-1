@@ -9,7 +9,7 @@ header {
   padding: 20px;
   text-align: center;
 }
-
+/* use commas to use multiple selcetors instead of writing the same rule numerous times  */
 nav,
 aside,
 footer,
