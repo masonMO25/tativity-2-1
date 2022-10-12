@@ -1,0 +1,26 @@
+body {
+  font-size: 40px;
+}
+
+.main header {
+  background-color: rgb(96 143 231);
+  text-align: center;
+  padding: 0.5rem;
+}
+
+main {
+  background-color: rgb(4 70 4);
+}
+
+.card {
+  background-color: blue;
+  border: solid 1px black;
+  color: white;
+  padding: 1rem 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    flex-direction: row;
+  }
+}
