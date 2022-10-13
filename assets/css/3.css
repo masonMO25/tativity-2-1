@@ -13,9 +13,8 @@ main {
 
 .card {
   background-color: blue;
-  border: solid 1px black;
   color: white;
-  padding: 4rem 0.5rem;
+  padding: 5rem 0.5rem;
   text-align: center;
 }
 
