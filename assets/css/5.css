@@ -10,7 +10,9 @@ nav {
   padding: 20px;
 }
 
-a {
+.card {
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
