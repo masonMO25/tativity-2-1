@@ -1,18 +1,19 @@
 header {
   background-color: coral;
   text-align: center;
-  padding: 15px;
+  color: aliceblue;
+  padding: 4rem;
+}
+
+header p {
+  line-height: 1.5;
 }
 
 nav {
   background-color: darkorange;
   text-align: center;
+  display: flex;
   padding: 20px;
-}
-
-.card {
   flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-content: space-between;
+  gap: 1.5rem 3.5rem;
 }
