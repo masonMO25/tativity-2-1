@@ -4,19 +4,34 @@
     <title>Flexbox Alignment</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/7.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="assets/css/7.css" />
   </head>
 
   <body>
-    <div class="products">
+    <main class="products">
       <section class="card">
-        <header>Centered Camera</header>
-        <img src="./assets/images/camera.jpg" alt="camera" />
+        <!-- We can specify a width/heigh so that a broswer reserves the space for the image. -->
+        <h2>Centered Camera</h2>
+        <img
+          src="./assets/images/camera.jpg"
+          alt="camera"
+          width="320"
+          height="213"
+        />
       </section>
       <section class="card">
-        <header>Centered Tablet</header>
-        <img src="./assets/images/tablet.jpg" alt="tablet" />
-      </section>
+        <h2>Centered Tablet</h2>
+        <img
+          src="./assets/images/tablet.jpg"
+          alt="tablet"
+          width="320"
+          height="213"
+        />
+      </main>
     </div>
   </body>
 </html>
