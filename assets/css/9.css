@@ -3,3 +3,19 @@ body {
   color: wheat;
   text-align: center;
 }
+
+.rotate img {
+  transition: 1s ease;
+}
+
+.rotate img:hover {
+  transform: rotate(360deg);
+}
+
+.scale img:hover {
+  transform: scale(2);
+}
+
+.skew img:hover {
+  transform: skew(50deg);
+}
